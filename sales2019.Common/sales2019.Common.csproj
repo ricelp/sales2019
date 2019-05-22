@@ -51,5 +51,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sales2019\sales2019\sales2019.csproj">
+      <Project>{aa74e076-c3f1-4798-bf82-c6b5bc81085e}</Project>
+      <Name>sales2019</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
