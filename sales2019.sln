@@ -7,7 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sales2019.Android", "sales2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sales2019.iOS", "sales2019\sales2019.iOS\sales2019.iOS.csproj", "{CB54BC25-E928-48DB-9C52-D6B6746DA7B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sales2019", "sales2019\sales2019\sales2019.csproj", "{AA74E076-C3F1-4798-BF82-C6B5BC81085E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sales2019", "sales2019\sales2019\sales2019.csproj", "{AA74E076-C3F1-4798-BF82-C6B5BC81085E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{904292F6-B7E9-496B-9D2D-7766791BA7D2} = {904292F6-B7E9-496B-9D2D-7766791BA7D2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sales2019.Backend", "sales2019.Backend\sales2019.Backend.csproj", "{4E63B94A-3994-41C5-B526-D66A757928F7}"
 EndProject
